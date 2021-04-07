@@ -1,0 +1,33 @@
+{
+	"name": "Quora Prompt Remover",
+	"version": "1.0",
+	"description": "Removes the login prompt in Quora",
+	"homepage_url": "https://github.com/murphify/Quora-Prompt-Remover",
+	"manifest_version": 2,
+	"minimum_chrome_version": "65",
+	"icons": {
+		"128": "icon.png"
+	},
+	"permissions": [
+		"webRequest",
+		"webRequestBlocking",
+		"*://quora.com/*",
+		"*://www.quora.com/*"
+	],
+	"background": {
+		"scripts": [
+			"query-string.js",
+			"background.js"
+		]
+	},
+	"content_scripts": [{
+		"run_at": "document_end",
+		"matches": [
+			"*://quora.com/*",
+			"*://www.quora.com/*"
+		],
+		"css": [
+			"content.css"
+		]
+	}]
+}
