@@ -1,4 +1,4 @@
-# Quora Prompt Remover
+# [PATCHED - IS NO LONGER FUNCTIONAL] Quora Prompt Remover
 
 > A chrome extention to remove the login prompt for Quora whenever you go onto their site lol.
 
