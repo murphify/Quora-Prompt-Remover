@@ -2,9 +2,7 @@
 
 > A chrome extention to remove the login prompt for Quora whenever you go onto their site lol.
 
-Quora is gross, so you have to login to an account to use the site unless you append " ?share=1 " to the end of a URL. Super annoying lol.
-This is a compilation of stackoverflow code, and I barely did anything myself. I did, however, learn a little
-about onBeforeRequest & JavaScript. Go me I guess lol.
+Quora is gross, so you have to login to an account to use the site unless you append " ?share=1 " to the end of a URL.
 
 
 ## Installation
